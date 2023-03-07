@@ -28,6 +28,7 @@ const ContainerCard = () => {
     const sumTotal = sumInValues - sumOutValues
     setSumTotal(sumTotal)
   }, [transaction])
+  
   return (
     <Container>
       <Card title="Receitas" icon={<BsArrowBarDown />} value={sumInValues} />
