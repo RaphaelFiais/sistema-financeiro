@@ -25,7 +25,7 @@ deepen more in react hooks especially in useContext.</p>
 
 ## How to run
 
-To clone and run this app you will need [Git](https://git-scm.com) and [Vite.js](https://vitejs.dev/guide/) installed on your computer. On your command line:
+To clone and run this app you will need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
