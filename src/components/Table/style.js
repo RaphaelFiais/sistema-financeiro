@@ -36,5 +36,5 @@ export const ContainerTable = styled.table`
 
 `
 export const TdValue = styled.td`
-    color: ${props => props.whatColor ? '#00ff00' : '#ff0000'};
+    color: ${props => props.whatColor ? '#00da00' : '#ff0000'};
 `
