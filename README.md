@@ -35,10 +35,10 @@ $ git clone https://github.com/RaphaelFiais/sistema-financeiro
 $ cd sistema-financeiro-main
 
 # Install project dependencies
-$ yarn
+$ npm install
 
 # run the application
-$ yarn dev
+$ npm run dev
 ```
 
 
