@@ -15,7 +15,7 @@ const Home = () => {
       </header>
       <ContainerCard />
       <Modal />
-      {transaction.length > 0 ? (
+      {transaction.length  ? (
         <Table />
       ) : (
         <h2 style={{ marginTop: '10%' }}>Não há Transações</h2>

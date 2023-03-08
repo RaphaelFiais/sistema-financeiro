@@ -6,7 +6,10 @@ export const TransactionProvider = ({children}) => {
     const [transaction, setTransaction] = useState([]);
 
     useEffect(()=>{
-        setTransaction(JSON.parse(localStorage.getItem('transaction')))
+      const getStorage = JSON.parse(localStorage.getItem('transaction'))
+      if(getStorage){
+        setTransaction(getStorage)
+      }
     },[])
 
     const updateStorage = (transaction) =>{
