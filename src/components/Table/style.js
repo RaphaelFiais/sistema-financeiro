@@ -1,14 +1,12 @@
 import styled from "styled-components";
 
 export const ContainerTable = styled.table`
-    border-collapse: collapse;
-    
+    border-collapse: collapse;    
     width: 95%;
     max-width: 1000px;
     background: #ffffff;
-    .titles{
-        
-    }
+    margin-bottom: 50px;
+
     td,th{
         
         padding: 10px 0;
