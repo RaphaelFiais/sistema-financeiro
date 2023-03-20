@@ -14,8 +14,7 @@ export const Container = styled.div`
         justify-content: center;
         background: #7ED957;
         width: 100%;
-        height: 200px;
-        
+        height: 200px;        
     }
    
 `
